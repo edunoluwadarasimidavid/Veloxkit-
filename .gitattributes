@@ -1,0 +1,6 @@
+# Ensure git keeps jar files as binary to avoid corruption across OS configurations
+*.jar binary
+*.png binary
+*.webp binary
+*.keystore binary
+*.jks binary
