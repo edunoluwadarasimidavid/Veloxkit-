@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
-  compileSdk { version = release(36) { minorApiLevel = 1 } }
+  namespace = "com.smarttechprogramming.veloxkit"
+  compileSdk = 36
 
   defaultConfig {
-    applicationId = "com.aistudio.veloxkit.dfjqpk"
-    minSdk = 24
-    targetSdk = 36
+    applicationId = "com.smarttechprogramming.veloxkit"
+    minSdk = 26
+    targetSdk = 34
     versionCode = 1
     versionName = "1.0"
 
