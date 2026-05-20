@@ -1,0 +1,47 @@
+# Built artifacts
+**/build/
+*.apk
+*.aar
+*.ap_
+*.lprof
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+.gradle/
+local.properties
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+.DS_Store
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# Gradle
+.gradle/
+build/
+boot_out/
+active_theme/
+.env
+
+# Signing files
+*.jks
+*.keystore
+!debug.keystore # usually good to exclude except if it's debug.keystore generated/managed elsewhere, but let's conform to standard practice or user requirements. In AI studio, let's keep debug.keystore.base64
+
+# Local configuration file (sdk path, etc)
+local.properties
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
